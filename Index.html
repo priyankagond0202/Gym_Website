@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rommy Fitness</title>
+</head>
+<link rel = "sytleseet" href="css/sytel.css">
+<style>
+    body{
+         margin: 0px;
+         padding: 0px;
+         background: url('img/Gym.jpg.jpg');
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        text-align: center;
+        color: aliceblue;
+          border: 2px solid black;
+    }
+    .left img{
+        width: 136px;
+        filter: invert(100%);
+    }
+    .left div{
+        line-height: 2px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width : 40%;
+        margin: 34px auto;
+        color: aliceblue;
+         border: 2px solid hwb(72 94% 4%);
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 25px;
+        color: aliceblue;
+           border: 2px solid #e3dfe2;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+      color: white;
+      display:inline-block;
+      font-size: 23px;
+    }
+    .navbar li a{
+        color:#a9d2d7;;
+        text-decoration: none;
+        padding: 11px 18px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+      text-decoration: underline;
+      color: white;
+    }
+    .btn{
+        margin : 0px 9px;
+        color : white;
+        background-color: black;
+        padding: 3px 4px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: dimgray;
+    }
+    .container{
+        
+        border: 3px solid #686767;
+        margin : 106px 8px;
+        padding: 20px 141px;
+        width :30%;
+        border-radius: 2px;
+        text-align: center;
+
+        color: #b4d365;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 4px auto;
+    }
+    .container button{
+        display: block;
+        width: 60%;
+        margin: 6px auto;
+
+    }
+    
+</style>
+<body>
+    <header
+        class = "header">
+        
+        <div class = "left">
+           <img src="img/logo.png" alt="">
+           <div> LaKa Fitness</div>
+            
+        </div>
+        <div class="mid">
+            <ui class ="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ui>
+        </div>
+
+        <div class="right">
+      <button class ="btn"> Call Us Now</button>
+      <button class ="btn"> Email Us</button>
+        </div>
+    </header>
+    <div class ="container">
+        <h1> Join the best gym of Raipur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Full Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone no">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">Summit</button>
+        </form>
+    </div>
+        
+    </div>
+</body>
+</html>
